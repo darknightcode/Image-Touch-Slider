@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>3D Swipe Slider</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+      	<div class="imgbx">
+      		<img src="boy1.jpg">
+      	</div>
+      	<div class="details">
+      		<h3>John Doe<br><span>Web Designer |<br><span2>Web Developer<span2></span></h3>
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="imgbx">
+      		<img src="girl1.jpg">
+      	</div>
+      	<div class="details">
+      		<h3>John Doe<br><span>Web Designer |<br><span2>Web Developer<span2></span></h3>
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="imgbx">
+      		<img src="girl2.jpg">
+      	</div>
+      	<div class="details">
+      		<h3>John Doe<br><span>Web Designer |<br><span2>Web Developer<span2></span></h3>
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="imgbx">
+      		<img src="boy2.jpg">
+      	</div>
+      	<div class="details">
+      		<h3>John Doe<br><span>Web Designer |<br><span2>Web Developer<span2></span></h3>
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="imgbx">
+      		<img src="girl3.jpg">
+      	</div>
+      	<div class="details">
+      		<h3>John Doe<br><span>Web Designer |<br><span2>Web Developer<span2></span></h3>
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="imgbx">
+      		<img src="girl4.jpg">
+      	</div>
+      	<div class="details">
+      		<h3>John Doe<br><span>Web Designer |<br><span2>Web Developer<span2></span></h3>
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="imgbx">
+      		<img src="boy3.jpg">
+      	</div>
+      	<div class="details">
+      		<h3>John Doe<br><span>Web Designer |<br><span2>Web Developer<span2></span></h3>
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="imgbx">
+      		<img src="girl5.jpg">
+      	</div>
+      	<div class="details">
+      		<h3>John Doe<br><span>Web Designer |<br><span2>Web Developer<span2></span></h3>
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="imgbx">
+      		<img src="girl6.jpg">
+      	</div>
+      	<div class="details">
+      		<h3>John Doe<br><span>Web Designer |<br><span2>Web Developer<span2></span></h3>
+      	</div>
+      </div>
+    </div>
+     <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+	<script type="text/javascript" src="swiper.min.js"></script>
+	<script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 70,
+        stretch: 0,
+        depth: 300,
+        modifier: 3,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+</html>
